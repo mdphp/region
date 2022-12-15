@@ -1,9 +1,10 @@
 {
   "name": "mdphp/region",
   "type": "library",
-  "require": {},
+  "require": {
+    "fabpot/goutte": "^4.0"
+  },
   "require-dev": {
-    "fabpot/goutte": "^4.0",
     "orchestra/testbench": "^6.23",
     "pestphp/pest": "^1.21"
   },
