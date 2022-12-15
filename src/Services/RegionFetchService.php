@@ -41,7 +41,8 @@ class RegionFetchService
                 'parent_id' => null,
                 'code' => Str::padRight($code, 12, 0),
                 'name' => $node->text(),
-                'level' => 0
+                'level' => 0,
+                'children' => []
             );
             $provinces_json[] = $data;
             if ($this->include_city || (int)$code == 44) {
