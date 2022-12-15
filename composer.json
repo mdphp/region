@@ -1,0 +1,50 @@
+{
+  "name": "mdphp/region",
+  "type": "library",
+  "require": {},
+  "require-dev": {
+    "fabpot/goutte": "^4.0",
+    "orchestra/testbench": "^6.23",
+    "pestphp/pest": "^1.21"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mdphp\\Region\\": "./src",
+      "Mdphp\\Region\\Tests\\": "./tests"
+    }
+  },
+  "scripts": {
+    "test": [
+      "@php vendor/bin/pest --filter Region"
+    ],
+    "fetch": [
+      "@php vendor/bin/pest --filter FetchAll"
+    ]
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mdphp",
+      "email": "mdphp@tinytech.cn"
+    }
+  ],
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Mdphp\\Region\\RegionServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "process-timeout": 0,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
