@@ -1,6 +1,7 @@
 {
   "name": "mdphp/region",
   "type": "library",
+  "keywords": ["china", "region", "city", "laravel"],
   "require": {
     "fabpot/goutte": "^4.0"
   },
