@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Storage;
 
 class RegionFetchService
 {
-    public $url = 'http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2021/'; // 国家统计局省市区镇行政区域
+    public $url = 'http://www.stats.gov.cn/sj/tjbz/tjyqhdmhcxhfdm/2022/'; // 国家统计局省市区镇行政区域
     public $include_district = true;
     public $include_city = true;
     public $data_path = __DIR__ . '/../../data/';

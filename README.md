@@ -1,4 +1,4 @@
-[国家统计局](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2021/)公开的中国省市区镇行政区域结构化信息, 可广泛用于各行业的省市区镇地址信息维护.
+[国家统计局](http://www.stats.gov.cn/sj/tjbz/tjyqhdmhcxhfdm/2021/)公开的中国省市区镇行政区域结构化信息, 可广泛用于各行业的省市区镇地址信息维护.
 
 [本组件开箱即用](https://github.com/mdphp/region), 提供了省市区镇数据的查询方法, 也提供 json 数据文件以及 sql 数据库导入文件, 方便开发者在各种场景中集成使用.
 
