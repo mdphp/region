@@ -4,7 +4,7 @@
 
 [本组件还提供了更新地区数据的方法](https://github.com/mdphp/region), 在 laravel 环境中执行 ```php artisan mdphp:fetch``` 即可拉取最新的中国省市区镇行政区域数据.
 
-[点击查看DEMO](https://region.mdphp.cn/region)
+[点击查看DEMO](http://43.129.82.64:9907/)
 
 ### 安装
 > 注意: 支持 laravel 6.x 以上版本
